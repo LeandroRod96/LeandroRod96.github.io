@@ -21,6 +21,8 @@ body {
     padding: 20px;
     background-color: #fff;
     margin: 20px 0;
+    max-width: 1550px;
+
 }
 
 #informacion h2 {
@@ -44,6 +46,7 @@ body {
     background-color: #fff;
     padding: 20px;
     margin: 20px 0;
+    max-width: 1550px;
 }
 
 #proyectos h2 {
@@ -61,6 +64,7 @@ body {
     background-color: #fff;
     padding: 20px;
     margin: 20px 0;
+    max-width: 1550px;
 }
 
 #contacto .contacto-info {
@@ -73,10 +77,14 @@ body {
 
 img {
     max-width: 100%; 
-    height: auto; 
+    height: 300px; 
+    width: 300px;
+    margin-bottom: 50px;
 }
 
-
+.video-container {
+    margin-bottom: 1000px;
+}
 
 #pie {
     background-color: #336699;
@@ -86,4 +94,6 @@ img {
     position: fixed;
     width: 100%;
     bottom: 0;
+    
+   
 }
